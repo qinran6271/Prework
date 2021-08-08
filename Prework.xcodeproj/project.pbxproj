@@ -13,7 +13,21 @@
 		FF50D56D26B766AE00E200BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50D56B26B766AE00E200BE /* Main.storyboard */; };
 		FF50D56F26B766B300E200BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF50D56E26B766B300E200BE /* Assets.xcassets */; };
 		FF50D57226B766B300E200BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50D57026B766B300E200BE /* LaunchScreen.storyboard */; };
+		FF50D57A26BCDDAC00E200BE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50D57926BCDDAC00E200BE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF50D58A26BCE89200E200BE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FF50D56226B766AE00E200BE /* Prework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +38,7 @@
 		FF50D56E26B766B300E200BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF50D57126B766B300E200BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF50D57326B766B300E200BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF50D57926BCDDAC00E200BE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 				FF50D56726B766AE00E200BE /* SceneDelegate.swift */,
 				FF50D56926B766AE00E200BE /* ViewController.swift */,
 				FF50D56B26B766AE00E200BE /* Main.storyboard */,
+				FF50D57926BCDDAC00E200BE /* SettingsViewController.swift */,
 				FF50D56E26B766B300E200BE /* Assets.xcassets */,
 				FF50D57026B766B300E200BE /* LaunchScreen.storyboard */,
 				FF50D57326B766B300E200BE /* Info.plist */,
@@ -77,6 +93,7 @@
 				FF50D55E26B766AE00E200BE /* Sources */,
 				FF50D55F26B766AE00E200BE /* Frameworks */,
 				FF50D56026B766AE00E200BE /* Resources */,
+				FF50D58A26BCE89200E200BE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -140,6 +157,7 @@
 				FF50D56A26B766AE00E200BE /* ViewController.swift in Sources */,
 				FF50D56626B766AE00E200BE /* AppDelegate.swift in Sources */,
 				FF50D56826B766AE00E200BE /* SceneDelegate.swift in Sources */,
+				FF50D57A26BCDDAC00E200BE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
