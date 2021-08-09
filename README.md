@@ -4,7 +4,7 @@
 
 Submitted by: Qinran Wang
 
-Time spent: 4
+Time spent: 4hrs
 ## User Stories
 
 The following **required** functionality is complete:
