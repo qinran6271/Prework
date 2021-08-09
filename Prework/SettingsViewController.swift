@@ -45,6 +45,10 @@ class SettingsViewController: UIViewController {
             
             view.backgroundColor = .white
             text.textColor = .black
+            text1.textColor = .black
+            text2.textColor = .black
+            text3.textColor = .black
+            text4.textColor = .black
             defaults.set(sender.isOn, forKey: "Switch")
         }
         defaults.synchronize()

@@ -2,16 +2,15 @@
 
 **Name of your app** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: Qinran Wang
 
-Time spent: **X** hours spent in total
-
+Time spent: 4
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
 The following **optional** features are implemented:
 
@@ -22,19 +21,23 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] add "per person cost" to count the money of each person should pay.
+- [x] Implement dark mode on the setting page
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![](https://i.imgur.com/2vZgz46.gif)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+In this project, I add "per person cost" to count the money of each person should pay. In try to use Userdefault to connect setting page and main page, but I faild. But I use it successfully to add "per person cost".
+I can only change to Dark model in setting page. But I can not change whole application. That why I did not show how my setting page connect with my main page.
 
 ## License
 
